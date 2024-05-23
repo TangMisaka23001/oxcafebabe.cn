@@ -21,7 +21,8 @@ export default defineConfig({
           { text: 'RSS Hub', link: 'https://rsshub.oxcafebabe.cn' },
         ]
       },
-      { text: '开源生活', link: 'https://doc.misakatang.cn' },
+      { text: 'Open Source Life', link: 'https://doc.misakatang.cn' },
+      { text: 'Photo Wall', link: 'https://pic.oxcafebabe.cn' },
       { text: 'LobeChat', link: 'https://chat.oxcafebabe.cn' },
       { text: 'RBChecker', link: 'https://rbc.oxcafebabe.cn' },
       { text: `MisakaTang's Blog`, link: 'https://misakatang.cn' },
