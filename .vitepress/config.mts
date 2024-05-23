@@ -8,17 +8,22 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: './logo.jpg',
     nav: [
-      {text:'我的博客', link: 'https://misakatang.cn'},
-      {text:'Uptime-Kuma', link: 'https://uptime.oxcafebabe.cn'},
-      {text:'Traefik', link: 'https://traefik.oxcafebabe.cn/dashboard/'},
-      {text:'YARR', link: 'https://yarr.oxcafebabe.cn'},
-      {text:'Portainer', link: 'https://portainer.oxcafebabe.cn'},
-      // {text:'Dozzle', link: 'https://dozzle.oxcafebabe.cn'},
-      // {text:'Plausible', link: 'https://plausible.oxcafebabe.cn'},
-      {text:'青龙面板', link: 'https://qinglong.oxcafebabe.cn'},
-      {text:'Bitwarden', link: 'https://bitwarden.oxcafebabe.cn'},
-      {text:'RSS Hub', link: 'https://rsshub.oxcafebabe.cn'},
-      // {text:'V2rayA', link: 'https://v2raya.bilibifun.cn'},
+      {
+        text: 'Self Hosted',
+        items: [
+          { text: 'Memos', link: 'https://memo.oxcafebabe.cn' },
+          { text: 'Excalidraw', link: 'https://board.oxcafebabe.cn' },
+          { text: 'Yarr', link: 'https://yarr.oxcafebabe.cn' },
+          { text: 'Traefik', link: 'https://traefik.oxcafebabe.cn/dashboard/' },
+          { text: 'Portainer', link: 'https://portainer.oxcafebabe.cn' },
+          { text: 'Qinglong', link: 'https://qinglong.oxcafebabe.cn' },
+          { text: 'Bitwarden', link: 'https://bitwarden.oxcafebabe.cn' },
+          { text: 'RSS Hub', link: 'https://rsshub.oxcafebabe.cn' },
+        ]
+      },
+      { text: '开源生活', link: 'https://doc.misakatang.cn' },
+      { text: 'LobeChat', link: 'https://chat.oxcafebabe.cn' },
+      { text: `MisakaTang's Blog`, link: 'https://misakatang.cn' },
     ],
 
     sidebar: [
