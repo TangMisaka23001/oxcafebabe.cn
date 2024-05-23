@@ -23,6 +23,7 @@ export default defineConfig({
       },
       { text: '开源生活', link: 'https://doc.misakatang.cn' },
       { text: 'LobeChat', link: 'https://chat.oxcafebabe.cn' },
+      { text: 'RBChecker', link: 'https://rbc.oxcafebabe.cn' },
       { text: `MisakaTang's Blog`, link: 'https://misakatang.cn' },
     ],
 
