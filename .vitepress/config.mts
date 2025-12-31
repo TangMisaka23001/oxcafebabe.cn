@@ -21,6 +21,7 @@ export default defineConfig({
       },
       { text: 'Traefik', link: 'https://traefik.oxcafebabe.cn/dashboard/' },
       { text: 'Dockge', link: 'https://dockge.oxcafebabe.cn' },
+      { text: 'Beszel', link: 'https://beszel.oxcafebabe.cn' },
       { text: 'Open Source Life', link: 'https://doc.misakatang.cn' },
       { text: 'RBChecker', link: 'https://rbc.oxcafebabe.cn' },
       { text: `MisakaTang's Blog`, link: 'https://misakatang.cn' },
