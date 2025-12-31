@@ -11,19 +11,17 @@ export default defineConfig({
       {
         text: 'Self Hosted',
         items: [
+          { text: 'Yarr', link: 'https://yarr.oxcafebabe.cn' },
           { text: 'Memos', link: 'https://memo.oxcafebabe.cn' },
           { text: 'Excalidraw', link: 'https://board.oxcafebabe.cn' },
-          { text: 'Yarr', link: 'https://yarr.oxcafebabe.cn' },
-          { text: 'Traefik', link: 'https://traefik.oxcafebabe.cn/dashboard/' },
-          { text: 'Portainer', link: 'https://portainer.oxcafebabe.cn' },
-          { text: 'Qinglong', link: 'https://qinglong.oxcafebabe.cn' },
+          // { text: 'Qinglong', link: 'https://qinglong.oxcafebabe.cn' },
           { text: 'Bitwarden', link: 'https://bitwarden.oxcafebabe.cn' },
           { text: 'RSS Hub', link: 'https://rsshub.oxcafebabe.cn' },
         ]
       },
+      { text: 'Traefik', link: 'https://traefik.oxcafebabe.cn/dashboard/' },
+      { text: 'Dockge', link: 'https://dockge.oxcafebabe.cn' },
       { text: 'Open Source Life', link: 'https://doc.misakatang.cn' },
-      { text: 'Photo Wall', link: 'https://pic.oxcafebabe.cn' },
-      { text: 'LobeChat', link: 'https://chat.oxcafebabe.cn' },
       { text: 'RBChecker', link: 'https://rbc.oxcafebabe.cn' },
       { text: `MisakaTang's Blog`, link: 'https://misakatang.cn' },
     ],
